@@ -1,0 +1,555 @@
+/* font */
+
+
+/* yg lama
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* kasih style nav 
+        
+        nav {
+            background: rgb(70, 196, 233);
+            background: linear-gradient(90deg, rgba(70, 196, 233, 1) 15%, rgba(74, 166, 196, 1) 36%, rgba(132, 46, 232, 1) 91%);
+            color: white;
+            justify-content: space-around;
+            display: flex;
+            margin: -8px -8px 0 -8px;
+            overflow: none;
+        }
+        
+        #logo {
+            font-size: 25px;
+        }
+        
+        #ilang {
+            font-family: Arial, Helvetica, sans-serif;
+            /* background-color: red; 
+            padding: 0px;
+            margin-top: 25px;
+            margin-right: 100px;
+            width: 60%;
+            height: 45%;
+        }
+        
+        .nav-link {
+            margin-left: 50px;
+        }
+        /* Lalu class navlink dan navitemnya
+        
+        .nav-link {
+            display: block;
+            padding: 23px 20px;
+            margin: 0;
+            left: 500px;
+            color: #f8feff;
+            text-decoration: none;
+        }
+        
+        .nav-item {
+            position: relative;
+        }
+        */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body,
+.navbar-brand,
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* kasih style nav */
+
+nav {
+    backdrop-filter: blur(20px);
+    background-color: transparent;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+
+/*Heroes*/
+
+.heroes-bg {
+    background-color: #FAF7F0;
+}
+
+.logo-heroes {
+    margin-top: -550px;
+    margin-left: 50px;
+    width: 300px;
+    position: relative;
+}
+
+.text-heroes1 {
+    color: #7286D3;
+    font-size: 1.2em;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 550;
+    margin-top: 130px;
+}
+
+.text-heroes2 {
+    font-weight: 600;
+    font-size: 5em;
+    line-height: 1;
+    margin-bottom: 40px;
+    font-family: 'Lora', serif;
+}
+
+.heroes-btn-link {
+    background-color: #7286D3;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 40px;
+    font-family: 'Lora', serif;
+    border-radius: 5px;
+}
+
+#icon-book {
+    font-size: 1.3em;
+    background-color: #B9F3FC;
+    border-radius: 50%;
+    width: 50px;
+    padding: 10px 14px;
+}
+
+#icon-book:hover {
+    background-color: #7286D3;
+    color: #fff;
+}
+
+.btn-text-heroes {
+    font-weight: 400;
+    font-size: 1.3em;
+    font-family: 'Dosis', sans-serif;
+}
+
+.btn-text-heroes:hover {
+    color: #7286D3;
+}
+
+
+/* Profile */
+
+.profile-title {
+    font-weight: 600;
+    font-family: 'Lora', serif;
+    font-size: 2em;
+}
+
+.border-profile {
+    width: 100px;
+    height: 5px;
+    background-color: #7286D3;
+    margin: -10px auto 0 auto;
+}
+
+.about-img {
+    width: 500px;
+    border: 4px solid #7286D3;
+    border-radius: 5px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.about-text {
+    font-weight: 550;
+    font-size: 1em;
+    text-align: justify;
+}
+
+
+/*Hotel*/
+
+.bg-hotels {
+    background-color: #1572A1;
+}
+
+.tour-title {
+    font-size: 2.5em;
+    font-family: 'Lora', serif;
+    color: #fff;
+}
+
+.type-pack-img {
+    width: 450px;
+    height: 350px;
+    border: 5px solid #FDF6EC;
+    object-fit: cover;
+}
+
+.type-pack-img:hover {
+    box-shadow: 0px -3px 28px 0px rgba(247, 245, 235, 0.8);
+    -webkit-box-shadow: 0px -3px 28px 0px rgba(247, 245, 235, 0.8);
+    -moz-box-shadow: 0px -3px 28px 0px rgba(247, 245, 235, 0.8);
+}
+
+.type-pack-text {
+    padding: 10px 25px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #FDF6EC;
+}
+
+.type-pack-text:hover {
+    box-shadow: 0px -3px 28px 0px rgba(247, 245, 235, 0.8);
+    -webkit-box-shadow: 0px -3px 28px 0px rgba(247, 245, 235, 0.8);
+    -moz-box-shadow: 0px -3px 28px 0px rgba(247, 245, 235, 0.8);
+}
+
+.bg-pastel {
+    background-color: #FDF6EC;
+}
+
+.type-pack-img2 {
+    width: 450px;
+    height: 350px;
+    border: 5px solid #1572A1;
+    object-fit: cover;
+}
+
+.type-pack-img2:hover {
+    box-shadow: 0px -3px 28px 0px #1572A1;
+    -webkit-box-shadow: 0px -3px 28px 0px #1572A1;
+    -moz-box-shadow: 0px -3px 28px 0px #1572A1;
+}
+
+.type-pack-text2 {
+    padding: 10px 25px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1572A1;
+}
+
+.type-pack-text2:hover {
+    box-shadow: 0px -3px 28px 0px #1572A1;
+    -webkit-box-shadow: 0px -3px 28px 0px #1572A1;
+    -moz-box-shadow: 0px -3px 28px 0px #1572A1;
+}
+
+
+/*Artikel*/
+
+.artikel-img {
+    width: 350px;
+    align-items: center;
+    height: 300px;
+    object-fit: cover;
+}
+
+.artikel-text {
+    text-align: justify;
+    color: #000;
+    font-size: 0.9em;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* style sidebar */
+
+.sidebar {
+    height: 100vh;
+    width: 200px;
+    list-style: none;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 1px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: 25px; */
+    margin-left: 50px;
+    transition: background-color 0.3s;
+}
+
+.sidebar li {
+    margin-top: 55px;
+}
+
+
+/*navbar open*/
+
+.sidebar {
+    height: 100vh;
+    width: 200px;
+    list-style: none;
+    background: #373737;
+    /* tambahkan kode ini */
+    position: fixed;
+    left: -400px;
+    top: -18px;
+    transition: 0.7s;
+    opacity: 1;
+}
+
+
+/*Footer*/
+
+.bg-footer {
+    background-color: #FDF6EC;
+    color: #000;
+}
+
+.footer-logo {
+    width: 150px;
+    filter: brightness(50px);
+}
+
+.footer-text-logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.footer-text-1 {
+    font-family: 'Lora', serif;
+    font-size: 1.1em;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 1.4em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.link-footers {
+    font-size: 1em;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.link-footers:hover {
+    background-color: #FDF6EC;
+    color: #000;
+}
+
+.icon-footer {
+    margin-top: 20px;
+    padding: 10px 10px;
+}
+
+#icon-footer {
+    font-size: 1.5em;
+    color: #000;
+}
+
+
+/* tambahkan selector .sidebar-open di css  ini berguna untuk atur posisi open si side bar nya*/
+
+.sidebar-open {
+    left: 0;
+    /* backdrop-filter: blur(2px); */
+}
+
+
+/* Hamburger menu */
+
+.toggle-sidebar {
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.toggle-sidebar input {
+    position: absolute;
+    width: 48px;
+    height: 38px;
+    left: -5px;
+    top: -3px;
+    opacity: 0.0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.toggle-sidebar span {
+    display: block;
+    width: 27px;
+    height: 3px;
+    background-color: rgb(55, 0, 255);
+    border-radius: 3px;
+    transition: all 0.3s;
+    margin-top: 7px;
+}
+
+
+/* hamburger menu animasi */
+
+#toggle-sidebar span:nth-child(2) {
+    transform-origin: 0 0;
+}
+
+#toggle-sidebar span:nth-child(4) {
+    transform-origin: 0 100%;
+    background-color: rgb(55, 0, 255);
+}
+
+#toggle-sidebar input:checked~span:nth-child(2) {
+    background-color: rgb(55, 0, 255);
+    transform: rotate( 45deg) translate( -1px, -2px);
+}
+
+#toggle-sidebar input:checked~span:nth-child(4) {
+    background-color: rgb(55, 0, 255);
+    transform: rotate(-45deg) translate( -1px, 1px);
+}
+
+#toggle-sidebar input:checked~span:nth-child(3) {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.logo {
+    width: 60px;
+}
+
+.logo-title {
+    font-weight: bold;
+}
+
+.wa-Logo {
+    width: 80px;
+}
+
+.contact-Logo {
+    width: 50px;
+    margin-left: 20px;
+}
+
+.wa-Logo:hover {
+    border-radius: 50%;
+    box-shadow: 0px -3px 28px 0px #05b47a;
+    -webkit-box-shadow: 0px -3px 28px 0px #05b47a;
+    -moz-box-shadow: 0px -3px 28px 0px #05b47a;
+}
+
+
+/* tambahin media query, buat ilangin element nav-link nya jika tampilan android */
+
+
+/* android */
+
+@media only screen and (max-width: 980px) {
+    #ilang {
+        display: none;
+    }
+    .logo-title {
+        font-size: 0.7em;
+    }
+    /*Heroes*/
+    .logo-heroes {
+        margin-top: -290px;
+        margin-left: 20px;
+        width: 220px;
+        position: relative;
+    }
+    .text-heroes1 {
+        font-size: 1.1em;
+        margin-top: 20px;
+    }
+    .text-heroes2 {
+        font-size: 3em;
+        margin-bottom: 40px;
+    }
+    .heroes-btn-link {
+        padding: 15px 30px;
+        border-radius: 5px;
+    }
+    #icon-book {
+        font-size: 1em;
+        border-radius: 50%;
+        width: 50px;
+        padding: 10px 14px;
+    }
+    .btn-text-heroes {
+        font-size: 1em;
+    }
+    /* Profile */
+    .profile-title {
+        font-size: 1.5em;
+    }
+    .border-profile {
+        width: 80px;
+    }
+    .about-img {
+        width: 340px;
+        height: 200px;
+    }
+    .mt-android {
+        margin-top: 50px;
+    }
+    .about-text {
+        font-weight: 550;
+        font-size: 0.9em;
+        text-align: justify;
+    }
+    /*Hotel*/
+    .bg-hotels {
+        background-color: #1572A1;
+    }
+    .tour-title {
+        font-size: 2.5em;
+        font-family: 'Lora', serif;
+        color: #fff;
+    }
+    .type-pack-img {
+        width: 320px;
+        height: 320px;
+    }
+    .type-pack-text {
+        padding: 10px 25px;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 150px;
+    }
+    .type-pack-img2 {
+        width: 320px;
+        height: 320px;
+    }
+    .type-pack-text2 {
+        padding: 10px 25px;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 150px;
+    }
+    /*Artikel*/
+    .artikel-img {
+        width: 330px;
+        height: 300px;
+    }
+    .artikel-text {
+        font-size: 0.8em;
+        margin-top: -25px;
+    }
+}
+
+
+/* kalo tampilan nya desktop, ilangin sidebar nya desktop */
+
+@media only screen and (min-width: 980px) {
+    .toggle-sidebar {
+        display: none;
+    }
+}
